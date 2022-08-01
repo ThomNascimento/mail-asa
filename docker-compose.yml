@@ -1,0 +1,15 @@
+version: '3.3'
+
+services:
+  smtp:
+    build: ./smtp
+    networks:
+      - infraASA
+
+  dns:
+    build: ./dns
+    networks:
+      - infraASA
+
+networks:
+  infraASA:

@@ -17,4 +17,4 @@ $TTL	604800
 
 s1			A	10.25.2.84		; Change to desired S1 IP
 s2			A	10.25.2.84		; Change to desired S2 IP
-mail	IN		A	10.25.2.84		; Change to desired mail IP
+mail	IN	A	172.26.0.3		; Change to desired mail IP
